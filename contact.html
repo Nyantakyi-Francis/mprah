@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mprah Ruhaimatu - Women's Empowerment Advocate</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Skip Link -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Mprah Ruhaimatu</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 12rem 0 6rem; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <span class="sub-headline">Let's Connect</span>
+                    <h1>Get In <span class="highlight">Touch</span></h1>
+                    <p class="hero-description">
+                        Whether you want to book a service, invite me to speak, collaborate, or simply say hello —
+                        I’d love to hear from you. Your message matters.
+                    </p>
+                    <div class="cta-group">
+                        <a href="#contact-form" class="btn btn-primary">Send a Message</a>
+                        <a href="https://wa.me/233547539664" target="_blank" class="btn btn-secondary">Chat on
+                            WhatsApp</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/peace.PNG"
+                        alt="Mprah Ruhaimatu - Let's connect" class="hero-img">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+
+        <!-- Contact Section -->
+        <section id="contact-form" class="contact-form-section" style="padding: 6rem 0;">
+            <div class="container">
+                <div class="contact-form-wrapper">
+
+                    <!-- Left Side: Contact Information -->
+                    <div class="contact-form-text">
+                        <h2>Let's Start a Conversation</h2>
+                        <p>Whether you're ready to begin your empowerment journey or just want to connect, I'm here.</p>
+
+                        <div class="contact-info" style="margin-top: 3rem;">
+                            <div class="contact-item">
+                                <i>📍</i>
+                                <div>
+                                    <strong>Location</strong><br>
+                                    Accra, Ghana
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i>📞</i>
+                                <div>
+                                    <strong>Phone / WhatsApp</strong><br>
+                                    <a href="https://wa.me/233547539664" target="_blank" style="color: white;">054 753
+                                        9664</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i>✉️</i>
+                                <div>
+                                    <strong>Email</strong><br>
+                                    <a href="mailto:naamipeace@gmail.com" style="color: white;">naamipeace@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div style="margin-top: 3rem;">
+                            <p style="margin-bottom: 1rem; font-weight: 600;">Quick Links:</p>
+                            <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                                <a href="services.html" style="color: white; text-decoration: underline;">Book a Service
+                                    →</a>
+                                <a href="stories.html" style="color: white; text-decoration: underline;">Read Success
+                                    Stories →</a>
+                                <a href="about.html" style="color: white; text-decoration: underline;">Learn More About
+                                    Me →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Contact Form -->
+                    <div class="contact-form">
+                        <h3 style="color: var(--dark); margin-bottom: 2rem;">Send Me a Message</h3>
+
+                        <form action="#" method="POST" id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder="Phone Number (WhatsApp preferred)">
+                            </div>
+                            <div class="form-group">
+                                <select id="service"
+                                    style="width: 100%; padding: 1rem; border: 2px solid var(--light-gray); border-radius: var(--radius); font-family: 'Inter', sans-serif; font-size: 1rem;">
+                                    <option value="">What are you reaching out about?</option>
+                                    <option value="coaching">1:1 Empowerment Coaching</option>
+                                    <option value="workshop">Women’s Workshop</option>
+                                    <option value="speaking">Keynote Speaking / Event</option>
+                                    <option value="mentorship">Mentorship Program</option>
+                                    <option value="collaboration">Collaboration / Partnership</option>
+                                    <option value="general">General Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="6"
+                                    placeholder="Tell me more about how I can support you..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1.1rem;">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map / Visit Section (Optional) -->
+        <section style="padding: 5rem 0; background: var(--light-gray);">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Meet Me In Person</h2>
+                    <p class="section-subtitle">I’m based in Accra and available for in-person workshops, coaching, and
+                        speaking engagements across Ghana.</p>
+                </div>
+
+                <div style="text-align: center; margin-top: 2rem;">
+                    <p style="font-size: 1.1rem; color: var(--text-light);">
+                        📍 Accra, Greater Accra Region, Ghana
+                    </p>
+                    <a href="https://wa.me/233547539664" target="_blank" class="btn btn-primary"
+                        style="margin-top: 1.5rem;">
+                        Message Me on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Mprah Ruhaimatu</h3>
+                    <p class="footer-tagline">Empowering Women • One Story at a Time</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mprah Ruhaimatu. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Simple form submission feedback
+        const form = document.getElementById('contactForm');
+        if (form) {
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert("Thank you! Your message has been received. I'll get back to you soon.");
+                form.reset();
+            });
+        }
+    </script>
+</body>
+
+</html>
